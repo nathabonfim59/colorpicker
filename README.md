@@ -4,8 +4,12 @@ A small tool for X11 that writes the color value on your screen at the cursor
 position to stdout, in RGB.
 
 ### Usage
-
-Left click to print the pixel color, any other mouse click to quit the program.
+1. Compile the program running 
+> $ make
+2. Move it to some folder in your $PATH variable
+3. Assign it to some shortcut
+4. Use the shortcut
+5. Left click the color
 
 #### One Shot
 
