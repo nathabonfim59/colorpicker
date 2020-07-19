@@ -98,7 +98,7 @@ print_color_at(GdkDrawable * drawable, gint x, gint y)
           color);
 
         char *command = malloc(60);
-        sprintf(command, "echo '%06X' | xclip -selection clipboard", color);
+        sprintf(command, "printf '%06X' | xclip -selection clipboard", color);
         system(command);
 
         exit(0);
